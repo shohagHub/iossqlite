@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func buttonAction(_ sender: UIButton) {
+        let databaseManager = DatabaseManger.shared
+        switch sender.tag {
+        case 1:
+            databaseManager.createDictionaryTable()
+        case 2:
+            databaseManager.insert()
+        case 3:
+            databaseManager.query()
+        default:
+            databaseManager.query()
+        }
+    }
+    
 }
 

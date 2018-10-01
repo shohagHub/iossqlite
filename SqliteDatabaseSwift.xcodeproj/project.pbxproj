@@ -14,6 +14,8 @@
 		89CAAD6B21626A2F00E5F62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CAAD6921626A2F00E5F62A /* LaunchScreen.storyboard */; };
 		89CAAD7621626A2F00E5F62A /* SqliteDatabaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAAD7521626A2F00E5F62A /* SqliteDatabaseSwiftTests.swift */; };
 		89CAAD8121626A2F00E5F62A /* SqliteDatabaseSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAAD8021626A2F00E5F62A /* SqliteDatabaseSwiftUITests.swift */; };
+		89CAAD9021626AA100E5F62A /* DatabaseManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAAD8F21626AA100E5F62A /* DatabaseManger.swift */; };
+		89CAAD9221626F5B00E5F62A /* twiter.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CAAD9121626F5A00E5F62A /* twiter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		89CAAD7C21626A2F00E5F62A /* SqliteDatabaseSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDatabaseSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CAAD8021626A2F00E5F62A /* SqliteDatabaseSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDatabaseSwiftUITests.swift; sourceTree = "<group>"; };
 		89CAAD8221626A2F00E5F62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CAAD8F21626AA100E5F62A /* DatabaseManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManger.swift; sourceTree = "<group>"; };
+		89CAAD9121626F5A00E5F62A /* twiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twiter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		89CAAD5F21626A2B00E5F62A /* SqliteDatabaseSwift */ = {
 			isa = PBXGroup;
 			children = (
+				89CAAD9121626F5A00E5F62A /* twiter.png */,
+				89CAAD8E21626A7F00E5F62A /* database */,
 				89CAAD6021626A2B00E5F62A /* AppDelegate.swift */,
 				89CAAD6221626A2B00E5F62A /* ViewController.swift */,
 				89CAAD6421626A2B00E5F62A /* Main.storyboard */,
@@ -123,6 +129,14 @@
 				89CAAD8221626A2F00E5F62A /* Info.plist */,
 			);
 			path = SqliteDatabaseSwiftUITests;
+			sourceTree = "<group>";
+		};
+		89CAAD8E21626A7F00E5F62A /* database */ = {
+			isa = PBXGroup;
+			children = (
+				89CAAD8F21626AA100E5F62A /* DatabaseManger.swift */,
+			);
+			path = database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CAAD9221626F5B00E5F62A /* twiter.png in Resources */,
 				89CAAD6B21626A2F00E5F62A /* LaunchScreen.storyboard in Resources */,
 				89CAAD6821626A2F00E5F62A /* Assets.xcassets in Resources */,
 				89CAAD6621626A2B00E5F62A /* Main.storyboard in Resources */,
@@ -258,6 +273,7 @@
 			files = (
 				89CAAD6321626A2B00E5F62A /* ViewController.swift in Sources */,
 				89CAAD6121626A2B00E5F62A /* AppDelegate.swift in Sources */,
+				89CAAD9021626AA100E5F62A /* DatabaseManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
